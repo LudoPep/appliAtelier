@@ -11,18 +11,18 @@ if(PORT == null || PORT == "") {
 }
 
 express()
-  // .set('views', path.join(__dirname, 'src'))
+  .set('html', path.join(__dirname, 'src'))
   // .set('view engine', 'ejs')
   .get('/', (req, res) => res.sendFile('body.component.html'))
   .listen(PORT)
 
 
   router.get('/Home',function(req,res){
-    res.sendFile(path.join(__dirname+'/body.component.html'));
+    res.sendFile(path.join(__dirname+'body.component.html'));
   });
   
   router.get('/Details',function(req,res){
-    res.sendFile(path.join(__dirname+'/card.component.html'));
+    res.sendFile(path.join(__dirname+'card.component.html'));
   });
 
   app.use('/', router);

@@ -4,7 +4,7 @@ AppliStatsTennis
 # Comment lancer l'appli
 - Récupérer le projet
 - Lancer la commande : npm install
-- Lancer la commande : npm run start
+- Lancer la commande : npm run monappli
 - Se connecter sur un navigateur au lien : http://localhost:4200/
 
 La page d'acceuil affiche une liste de joueurs de tennis rangée par ordre alphabétique (par prénom).

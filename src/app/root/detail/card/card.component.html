@@ -1,0 +1,77 @@
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700&display=swap" rel="stylesheet">
+
+<div class="container-card">
+    <div class="closing">
+        <p class="close-item" (click)="backToHome()">X</p>
+    </div>
+    
+    <div class="card" style="flex-direction: row">
+    
+        <div class="img col img-parent">
+            <img class="sticker-img" src="{{player.picture}}" alt="">
+        </div>
+    
+        <div class="bod col">
+            <div class="name row">
+                <div class="col">
+                   <h2 class="firstname">{{player.firstname}}</h2> 
+                </div>
+                <br>
+                <div>
+                    <h1 class="lastname">{{player.lastname}}</h1>
+                </div>
+            </div>
+            <div class="infos row">
+                <div class="row">
+                    <div class="val sticker-rank col">
+                        <p class="title">Rank</p>
+                        <p class="value">#{{player.data.rank}}</p>
+                    </div>
+                    <div class="val sticker-points col">
+                        <p class="title">Points</p>
+                        <p class="value">{{player.data.points}}</p>
+                    </div>
+                    <div class="val sticker-country col">
+                        <p class="title">Country</p>
+                        <p class="value">{{player.country.code}}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="val sticker-age col">
+                        <p class="title">Age</p>
+                        <p class="value">{{player.data.age}}</p>
+                    </div>
+                    <div class="val sticker-sex col">
+                        <p class="title">Sex</p>
+                        <p class="value">{{player.sex}}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="val sticker-weight col">
+                        <p class="title">Weight</p>
+                        <p class="value">{{weight}} kg</p>
+                    </div>
+                    <div class="val sticker-height col">
+                        <p class="title">Height</p>
+                        <p class="value">{{player.data.height}} cm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flag col">
+            <img class="sticker-flag" src="{{player.country.picture}}" alt="">
+            <div class="col code">
+                {{player.country.code}}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.body {
+    background-image:url( "../../../Ressources/balleTennis.jpg"); 
+    background-size: cover;
+}
+
+.search-input{
+    margin: 5rem 8rem 3rem 8rem;
+}
+
+.form-group {
+    font-family: Montserrat;
+    width: 45%;
+    padding: 6px 12px;
+    background: #000000;
+    opacity: 30%;
+    border: 1px solid rgb(60, 63, 68);
+    border-radius: 4px;
+    font-size: 13px;
+    color: rgb(247, 248, 248);
+    height: 46px;
+    appearance: none;
+    transition: border 0.15s ease 0s;
+    :focus{
+        outline: none;
+        box-shadow: none;
+        border-color: rgb(100, 153, 255);
+    }
+
+}
+

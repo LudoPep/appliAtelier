@@ -1,0 +1,127 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.container-card {
+    background-image:url( "../../../Ressources/balleTennis.jpg"); 
+    background-size: cover;
+}
+
+.card {
+    background-color: ghostwhite;
+    display: flex; 
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.closing {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.close-item {
+    font-family: Montserrat;
+    color: ghostwhite;
+    font-size: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bod {
+    align-self: center;
+    margin-left: -8rem;
+    position: relative;
+    z-index: 1;
+}
+
+.infos {
+    margin-left: 8rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.title {
+    font-family: Mulish;
+    font-weight: bold;
+    color: #000000;
+    opacity: 30%;
+    text-transform: uppercase;
+    font-size: small;
+    letter-spacing: 0.1rem; 
+}
+
+.code {
+    font-family: Montserrat;
+    color: #000000;
+    opacity: 30%;
+    text-transform: uppercase;
+    font-size: 3rem; 
+    letter-spacing: 1rem;
+}
+
+.value {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #F2753B;
+    font-size: small; 
+    margin-top: -0.7rem;
+}
+
+.val-title {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #F2753B; 
+    font-size: large; 
+}
+
+.val {
+    margin-right: -2rem;
+}
+
+.name {
+    padding-bottom: 3em;
+}
+
+.firstname {
+    font-family: Mulish;
+    -webkit-text-stroke: 1px #F2753B;
+    color: transparent;
+    font-size: x-large;
+    font-size: 6rem;
+    margin-bottom: -2.5rem;
+}
+
+.lastname {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #F2753B;
+    font-size: xx-large;
+    font-size: 8rem;
+}
+
+.sticker-age, .sticker-weight {
+    margin-right: -8rem;
+}
+
+.sticker-flag {
+    width : 30%; 
+    min-width : 60px;
+    margin-right: -8rem;
+}
+
+.img {
+    position: relative;
+    z-index: 2;
+}
+
+.sticker-img {
+    width: 100%;
+}
+
+.flag {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 3rem;
+    margin-right: -8rem;
+}

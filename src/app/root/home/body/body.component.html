@@ -1,0 +1,4 @@
+<div class="body" *ngIf="playersResult">
+    <input placeholder="Rechercher un joueur" class="search-input form-group" type="text" [(ngModel)]="search" (ngModelChange)="searchMethod()"> 
+    <app-list-players [players]="playersResult"></app-list-players>
+</div>

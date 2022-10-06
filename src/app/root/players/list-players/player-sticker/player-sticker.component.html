@@ -1,0 +1,31 @@
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700&display=swap" rel="stylesheet">
+
+
+<div style="flex-direction: row" class="sticker row" (click)="redirectToDetails()">
+    <div class="img col img-parent">
+        <img class="sticker-img" src="{{player.picture}}" alt="">
+    </div>
+
+    <div class="sticker-body col">
+        <div class="row">
+            <h2 class="sticker-title val-title">{{player.firstname}} {{player.lastname}}</h2>
+        </div>
+        <br>
+        <div class="row">
+            <div class="val sticker-rank col">
+                <p class="title">Rank</p>
+                <p class="value">#{{player.data.rank }}</p>
+            </div>
+            <div class="val sticker-points col">
+                <p class="title">Points</p>
+                <p class="value">{{player.data.points}}</p>
+            </div>
+            <div class="val sticker-country col">
+                <p class="title">Country</p>
+                <p class="value">{{player.country.code}}</p>
+            </div>
+        </div>   
+    </div>
+</div>
+

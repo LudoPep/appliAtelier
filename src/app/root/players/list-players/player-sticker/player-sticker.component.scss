@@ -1,0 +1,51 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.sticker {
+    background-color: ghostwhite;
+    display: flex; 
+    width: 45%;
+    margin-left: 6rem;
+}
+
+.sticker-img {
+    max-width: 10em; 
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 1rem;
+    object-position: 46% -160%;
+}
+
+.sticker-body  {
+    margin-left: -8rem;
+    align-self: center;
+}
+
+.title {
+    font-family: Mulish;
+    font-weight: bold;
+    color: #000000;
+    opacity: 30%;
+    text-transform: uppercase;
+    font-size: small;
+    letter-spacing: 0.1rem; 
+}
+
+.value {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #F2753B;
+    font-size: small; 
+    margin-top: -0.7rem;
+}
+
+.val-title {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #F2753B; 
+    font-size: large; 
+}
+
+.val {
+    margin-right: -2rem;
+}

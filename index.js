@@ -7,9 +7,9 @@ if(PORT == null || PORT == "") {
 }
 
 express()
-  .set('views', path.join(__dirname, 'src/app/root/home'))
+  .set('views', path.join(__dirname, 'src'))
   .set('view engine', 'ejs')
-  .get('/', (req, res) => res.render('body.component.html'))
+  .get('/', (req, res) => res.render('app'))
   .listen(PORT)
 
 
